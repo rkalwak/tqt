@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #5D6D7A;
+    background: #1E598B;
+}
+
+h1 {
+    padding-left: 70px;
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 72px;
+    letter-spacing: -1px;
+    color: White;
+    background: url('images/logo.gif') no-repeat;
+}
+
+h1 a, h1 a:hover {
+    color: White;
+    text-decoration: none;
+}
+
+p#description {
+    padding: 6px 0 0 6px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #B9CDD9;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 1.5em;
+}
+
+a {
+    color: #FFCC00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+}
+
+#header {
+    height: 218px;
+    background: url(images/header.jpg) no-repeat;
+}
+
+#logo {
+    padding: 18px 0 0 20px;
+}
+
+#menu {
+    position: absolute;
+    top: 157px;
+    left: 265px;
+    width: 695px;
+    height: 36px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: block;
+    padding-left: 3px;
+    float: left;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    width: 136px;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    color: White;
+    background: url('images/menu.gif') no-repeat;
+}
+
+#menu ul li a:hover {
+    background: url('images/menu_over.gif') no-repeat;
+}
+
+#search {
+    position: absolute;
+    top: 50px;
+    right: 18px;
+    width: 255px;
+}
+
+#search input.text {
+    float: left;
+    display: block;
+    padding: 3px;
+    width: 175px;
+    font-size: 13px;
+    color: #5D6D7A;
+    background: White;
+    border: 1px solid #EEE;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+#search input.submit {
+    float: right;
+    display: block;
+    padding: 3px 0;
+    width: 65px;
+    font-size: 13px;
+    color: White;
+    background: #FF9900 url('images/submit.gif') repeat-x;
+    border: 1px solid #FF8307;
+    border-top: 1px solid #FF9900;
+    border-left: 1px solid #FF9900;
+    cursor: pointer;
+}
+
+#middle {
+    padding-top: 11px;
+    background: White url('images/middle.gif') no-repeat top;
+}
+
+#middle2 {
+    padding-bottom: 11px;
+    background: url('images/middle2.gif') no-repeat bottom;
+}
+
+#middle3 {
+    padding-left: 3px;
+    height: 1%;
+    background: url('images/middle3.gif') repeat-y;
+}
+
+#sidebar {
+    float: left;
+    padding: 5px 20px 0 20px;
+    width: 210px;
+    color: White;
+    background: #5783A9;
+}
+
+#sidebar .box {
+    padding: 0 0 15px 0;
+}
+
+#sidebar h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: White;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 10px 0 25px 0;
+}
+
+#sidebar ul li {
+    padding: 3px 0;
+    line-height: 1.5em;
+    border-bottom: 1px dashed  White;
+}
+
+#sidebar ul li a {
+    padding: 0;
+}
+
+#right {
+    float: right;
+    padding: 0 20px 0 0;
+    width: 672px;
+}
+
+#right  h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #FF7700;
+}
+
+#right p {
+    text-align: justify;
+}
+
+#right .box {
+    padding: 0 0 20px 0;
+}
+
+#right ol {
+    padding: 10px 0;
+}
+
+#right ol li {
+    list-style-position: inside;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+#footer {
+    clear: both;
+    height: 140px;
+    background: url('images/footer.jpg') no-repeat;
+}
+
+#footer p {
+    padding: 70px 0 0 80px;
+    text-align: center;
+    color: White;
+}
